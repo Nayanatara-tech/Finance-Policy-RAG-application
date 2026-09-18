@@ -1,5 +1,3 @@
-## Application
-
 # Finance RAG Assistant using Databricks
 
 ## Project Overview
