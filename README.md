@@ -32,3 +32,11 @@ requirements.txt
 app.yaml
 - Application startup configuration
 - Resource/environment configuration
+
+
+Application:
+
+<img width="1682" height="807" alt="image" src="https://github.com/user-attachments/assets/9cb8b3e4-035f-460b-8b1c-f60d29352a47" />
+
+<img width="1445" height="846" alt="image" src="https://github.com/user-attachments/assets/aa329dfa-d516-459a-816c-c04e12224937" />
+
