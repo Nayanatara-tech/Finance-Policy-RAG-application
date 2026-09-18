@@ -1,5 +1,57 @@
 ## Application
 
+# Finance RAG Assistant using Databricks
+
+## Project Overview
+
+This project demonstrates a **Retrieval Augmented Generation (RAG)** solution built using Databricks.
+
+The solution creates a finance knowledge assistant that can answer natural-language questions using information retrieved from financial and accounting documents.
+
+Instead of relying only on the LLM's pretrained knowledge, the system retrieves relevant information from a curated finance knowledge base and provides it as context to the LLM before generating the response.
+
+### Business Problem
+
+Large organizations maintain many finance-related documents, including:
+
+* Financial reporting procedures
+* Revenue recognition guidelines
+* Accounting policies
+* Budgeting and forecasting guidelines
+* Cost allocation policies
+* Finance KPI definitions
+
+Finding the correct information manually across these documents can be time-consuming.
+
+The objective of this project is to build a semantic-search-based finance assistant that can retrieve relevant information and generate grounded answers to finance-related questions.
+
+### Example Questions
+
+* What is the definition of operating revenue?
+* How is monthly revenue variance calculated?
+* What is the process for financial reporting?
+* Which policy defines the treatment of a particular expense?
+* What are the key financial KPIs used for reporting?
+
+### Technology Stack
+
+* Azure Databricks
+* PySpark
+* Delta Lake
+* Databricks AI Search
+* Embeddings
+* Vector Search
+* Large Language Model (LLM)
+* RAG
+* Python / SQL
+* Streamlit
+
+### Project Objective
+
+Build an end-to-end pipeline:
+
+**Documents → Text Extraction → Chunking → Embeddings → Delta Knowledge Base → AI Search → Retrieval → LLM → Finance Answer**
+
 The RAG pipeline was developed and validated in Databricks notebooks.
 The pipeline was then converted into a user-facing Streamlit application
 and deployed as a Databricks App.
