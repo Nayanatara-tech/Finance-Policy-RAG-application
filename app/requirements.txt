@@ -1,0 +1,4 @@
+streamlit
+databricks-ai-search
+databricks-sdk
+databricks-sql-connector
